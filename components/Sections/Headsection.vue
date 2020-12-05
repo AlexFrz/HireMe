@@ -1,5 +1,5 @@
 <template>
-  <section class="header">
+  <section v-rellax="{ speed: -7 }" class="header">
     <TheHeader />
     <!-- header -->
     <div class="header__text-wrapper">
@@ -20,6 +20,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
+section {
+  position: relative;
+}
+
+.header {
+  background-color: $beige;
+  background-attachment: fixed;
+}
 .header__text-wrapper {
   width: 80%;
   margin-left: 7.5%;

@@ -16,6 +16,7 @@ export default {}
 
 <style lang="scss" scoped>
 section {
+  position: relative;
   @include sm {
     height: 45vh;
   }
@@ -31,6 +32,7 @@ section {
 .powers {
   background-color: $maroon;
   color: $beige;
+  background-attachment: fixed;
 }
 
 ul {
