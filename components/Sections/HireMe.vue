@@ -22,8 +22,10 @@ section {
   @include sm {
     height: 70vh;
   }
-  height: 130vh;
-  justify-items: center;
+  @include lg {
+    height: 130vh;
+    justify-items: center;
+  }
 }
 
 .text {
@@ -45,13 +47,15 @@ button {
     height: 20vw;
     font-size: 60px;
   }
-  width: 65vw;
-  height: 25vh;
-  background-color: $maroon;
-  color: white;
-  font-family: 'Zona Black';
-  font-size: 160px;
-  margin-top: 7%;
+  @include lg {
+    width: 65vw;
+    height: 25vh;
+    background-color: $maroon;
+    color: white;
+    font-family: 'Zona Black';
+    font-size: 160px;
+    margin-top: 7%;
+  }
 }
 
 .socialmedia {

@@ -37,21 +37,6 @@
           </div>
         </div>
       </div>
-      <div class="textsm">
-        <div class="title"><h3>THEIRSTORIES</h3></div>
-        <div class="description">
-          <h5>
-            THEIRSTORIES is a non-profit organisation of journalists, travelers
-            and philanthropists who go all around the world to meet those people
-            that have stories to share.
-          </h5>
-
-          <div class="website">
-            <h5>www.theirstories.com</h5>
-            <h5>Built with React & Firebase.</h5>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -140,11 +125,7 @@ h5 {
       transform: scale(1.08);
       opacity: 1;
     }
-    .textxl {
-      display: none;
-    }
     h3 {
-      width: 100vw;
       font-size: 40px;
       text-align: center;
       padding-top: 5%;
@@ -155,7 +136,7 @@ h5 {
 
     .website {
       padding-top: 10px;
-      line-height: 10px;
+      line-height: 20px;
       color: $maroon;
     }
   }

@@ -61,6 +61,7 @@ export default {}
   @include lg {
     padding-top: 7.5%;
     padding-left: 5%;
+    text-align: left;
   }
 }
 

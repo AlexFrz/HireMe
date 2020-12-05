@@ -24,7 +24,9 @@ section {
   @include md {
     height: 60vh;
   }
-  height: 100vh;
+  @include lg {
+    height: 100vh;
+  }
 }
 
 .testimonials {
